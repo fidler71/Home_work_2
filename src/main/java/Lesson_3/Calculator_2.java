@@ -1,14 +1,14 @@
 package Lesson_3;
 
 /**
- * Created by Ivan.I on 05.03.2018.
+ * Реализовать базовые операции калькулятора (+,-,/,*) для предыдущего задания
  */
+
 import java.util.Scanner;
 
 public class Calculator_2{
-	public static void main(String[] args) {
+	public static void calculating() {
 		Scanner scanner = new Scanner(System.in);
-
 
 		System.out.println("Введите первое число:");
 		float first = scanner.nextFloat();
